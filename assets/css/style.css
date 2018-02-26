@@ -1,0 +1,175 @@
+
+/* Governs the rules on the body */
+body, html{
+    height: 100%;
+    margin-bottom: -100px;
+    background: url(../images/doodles.png);
+    /* background-color: grey; */
+    
+    }
+
+
+/* Controls the wrapper that surrounds all the content */
+#container{
+    width: 990px;
+    margin: 10px auto;
+    min-height: 100%;
+    
+}
+/* Part of the code for the sticky footer */
+.body:after{
+    content: "";
+    display: block;
+}
+/* Psuedo code for sticky footer, be sure to look up practices for psuedo code */
+.body:after, footer{
+    height: 100px;
+}
+
+/* Controls the header div that holds H1 and UL */
+header{
+    background-color: #ffffff;
+    border-bottom: outset;
+    border-width: .2px;
+    border-color: #cccccc;
+    min-height: 102px;
+    width: 960px;
+    margin-bottom: 40px;
+}
+/* This is the wrapper that holds column1 and sidebar */
+#main{
+    background-color: #ffffff;
+    height: 100%;
+    width: 960px;
+    overflow-y: hidden;
+}
+/* The first div within the main  */
+#column1{
+    background-color:#dddddd;
+    min-height: 50px;
+    width: 650px;
+    float: left;
+}
+/* The second div within the main that holds social media links and Contact header */
+#sidebar{
+    background-color: #ffffff;
+   height: 180px;
+    width: 270px;
+    float: right; 
+    text-align: center;
+}
+
+/* Governs the footer */
+footer{
+    background-color: #666666;
+    min-height: 60px;
+    padding: 1px;
+    /* grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: teal;
+    width: 100%;
+    text-align: center; */
+}
+/*controls the text Copyright in footer*/
+footer>p{
+    text-align: center;
+}
+/* Controls the sliver of color on the sticky footer */
+#footerline{
+    min-height: 10px;
+    min-width: 100%;
+    background-color: #4aaaa5;
+    margin-top: -10px;
+}
+/* controls the H1 name plate*/
+#hdh1{
+    width: 236px;
+    height: 63px;
+    background-color: teal;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+/* controls the about, portfolio, contact area */
+#contacthead{
+    float: right;
+    width: 270px;
+    height: 80px;
+    margin-top: 60px;
+}
+/* Class to float items right */
+.flort{
+    float: right;
+}
+/* class to float items left */
+.flolft{
+    float: left;
+}
+/* Controls all list */
+li{
+    display: inline-block;
+}
+#backgroundimg{
+    background-image: url(assets/images/shattered.png);
+    background-repeat: repeat;
+}
+#imgin{
+    width: 263px;
+    height: 199px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 50%;
+    padding: 0 4px;
+  }
+  #imginp{
+    width: 263px;
+    height: 199px;
+    margin: 3px;
+    padding: 25px;
+}
+#marginL{
+    margin-left: 3px;
+}
+textarea, button{
+    margin-left: 12px;
+}
+#margin10{
+    margin: 10px;
+}
+.indexpic{
+    height: 136px;
+    width: 181px;           
+}
+h1{
+    color:  #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 24px;
+    margin: 15px;
+
+}
+h2,h3,h4{
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-left: 10px;
+}
+p{
+    color:#777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+a{
+    color:#777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+a:hover{
+    color: teal;
+}
+label{
+    margin-left: 10px;
+}
