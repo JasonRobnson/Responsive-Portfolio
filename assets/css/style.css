@@ -174,9 +174,21 @@ label{
     margin-left: 10px;
 }
 @media screen and (max-width: 980px){
+    header, #container, #main, footer{
+        width: 100%;
+    }
+    #column1{
+        width: 70%;
+    }
+    .indexpic{
+        width: 30%;
+    }
+    #sidebar{
+        width: 30%;
+    }
 
 }
-@media screen and (max-width: 769px){
+@media screen and (max-width: 760px){
     
 }
 @media screen and (max-width: 640px){
