@@ -188,7 +188,7 @@ label{
     }
 
 }
-@media screen and (max-width: 760px){
+@media screen and (max-width: 768px){
     header, #container, #main, footer{
         width: 100%;
     }
