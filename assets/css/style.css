@@ -206,5 +206,18 @@ label{
     
 }
 @media screen and (max-width: 640px){
-    
+    header, #container, #main, footer{
+        width: 100%;
+    }
+    #column1{
+        width: 100%;
+    }
+    .indexpic{
+        width: 100%;
+    }
+    #sidebar{
+        width: 100%;
+    }
+
+}
 }
